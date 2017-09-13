@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         highgNote = MediaPlayer.create(this, R.raw.scalehighg);
         highgsNote = MediaPlayer.create(this, R.raw.scalehighgs);
     }
-
+    //comment
     private void delayNote(int delay) throws InterruptedException {
         try{
             Thread.sleep(delay);
